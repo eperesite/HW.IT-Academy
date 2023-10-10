@@ -14,8 +14,8 @@ public class Generator extends Thread {
         Random random = new Random();
 
         for (int i = 0; i < 100; i++) {
-            int randomNumber = random.nextInt(1000); // Измените 1000 на максимальное значение, если нужно другой диапазон случайных чисел
-
+            int randomNumber = random.nextInt(1000); 
+        
             synchronized (list) {
                 list.add(randomNumber);
                 System.out.println(randomNumber);
