@@ -2,7 +2,7 @@ package Engine.Authentication;
 
 public class LoginManager {
 
-    private String username;
+  /*  private String username;
     private String password;
 
    public Customer( String username, String password) {
@@ -17,7 +17,7 @@ public class LoginManager {
 
     public String getPassword() {
         return password;
-    }
+    } */
 
   
 }
