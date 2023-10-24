@@ -2,16 +2,16 @@ package Engine.Authentication;
 
 public class LoginManager {
 
-/*   private String username;
+  /*  private String user;
     private String password;
 
-    public LoginManager( String username, String password) {
-        this.username = username;
+    public LoginManager( String user, String password) {
+        this.username = user;
         this.password = password;
 
     }
 
-    public String getUsername() {
+    public String getUser() {
         return username;
     }
 
